@@ -4,7 +4,7 @@ constructor(bodyA,bodyB){
         bodyA: bodyA,
         bodyB: bodyB,
         stiffness: 0.04,
-        length: 30
+        lengt:10
     }
     this.chain = Constraint.create(options);
     World.add(world,this.chain);
